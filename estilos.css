@@ -1,0 +1,378 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: navy;
+  font-size: 20px;
+}
+
+.navbar-expand-lg .navbar-brand img {
+  width: 200px;
+  height: 100px;
+}
+
+.navbar-expand-lg ul li a {
+  color: aliceblue;
+}
+
+.portada img {
+  width: 100%;
+  height: auto;
+}
+
+.kawa {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 32px;
+  color: black;
+  padding: 10px;
+  margin: 30px 30px;
+}
+
+.contenedor-tarjetas-1 {
+  display: flex;
+  width: 98%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+.contenedor-tarjetas-1 .card {
+  border: none;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 128, 0.3);
+}
+.contenedor-tarjetas-1 .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 128, 0.3);
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.video iframe {
+  width: 70%;
+  height: 700px;
+}
+
+.beneficios-1 {
+  display: flex;
+  color: #000000;
+  font-size: 20px;
+  padding: 40px;
+  justify-content: space-between;
+}
+.beneficios-1 i {
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+}
+
+@media (max-width: 600px) {
+  .video iframe {
+    height: 400px;
+  }
+  .beneficios-1 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: navy;
+}
+footer .footer-icon {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-icon .redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  text-decoration: none;
+}
+footer .footer-icon .redes a {
+  padding: 15px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+footer .footer-icon .derechos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: navy;
+  height: 70px;
+  color: rgb(253, 253, 253);
+}
+
+.main-m {
+  background-color: rgb(2, 2, 56);
+}
+.main-m h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  color: white;
+}
+.main-m .contenedor-modelos {
+  display: flex;
+  width: 97%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  background-color: whitesmoke;
+}
+.main-m .contenedor-modelos .tarjeta-modelos {
+  margin-top: 20px;
+  width: 600px;
+  height: 550px;
+  background-color: whitesmoke;
+  padding: 25px;
+}
+.main-m .contenedor-modelos .tarjeta-modelos:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 128, 0.3);
+}
+
+.contenedor-accesorios {
+  background-color: rgb(3, 3, 77);
+  border: 15px solid rgb(6, 6, 46);
+}
+.contenedor-accesorios .titulo-acc {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-style: oblique;
+  text-decoration: underline;
+  font-size: 50px;
+  color: aliceblue;
+}
+.contenedor-accesorios h2 {
+  padding: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  font-size: 40px;
+  color: aliceblue;
+}
+.contenedor-accesorios .contenedor-guantes {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.contenedor-accesorios .contenedor-guantes .guantes {
+  width: 350px;
+  height: 300px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border: 5px solid rgb(0, 0, 0);
+}
+.contenedor-accesorios .contenedor-guantes .guantes:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+.contenedor-accesorios .contenedor-guantes .guantes img {
+  width: 100%;
+  height: 100%;
+}
+.contenedor-accesorios .contenedor-cascos {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.contenedor-accesorios .contenedor-cascos .cascos {
+  width: 350px;
+  height: 300px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border: 5px solid rgb(0, 0, 0);
+}
+.contenedor-accesorios .contenedor-cascos .cascos:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 0 20px 0 black;
+}
+.contenedor-accesorios .contenedor-cascos .cascos img {
+  width: 100%;
+  height: 100%;
+}
+.contenedor-accesorios .contenedor-lingas {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+}
+.contenedor-accesorios .contenedor-lingas .lingas {
+  width: 350px;
+  height: 300px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border: 5px solid rgb(0, 0, 0);
+}
+.contenedor-accesorios .contenedor-lingas .lingas:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+.contenedor-accesorios .contenedor-lingas .lingas img {
+  width: 100%;
+  height: 100%;
+}
+
+#body {
+  background-color: rgb(56, 56, 56);
+}
+
+.conteiner-nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.conteiner-nosotros .portada-nosotros img {
+  width: 100%;
+  height: 700px;
+  padding: 25px;
+}
+.conteiner-nosotros .contenedor-textos {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  text-align: center;
+}
+.conteiner-nosotros .contenedor-textos h1 {
+  text-align: center;
+  padding-bottom: 100px;
+  font-style: inherit;
+  font-weight: bolder 40px;
+  color: rgb(7, 7, 83);
+}
+.conteiner-nosotros .contenedor-textos .text-bienvenidos {
+  text-align: center;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.beneficios {
+  display: flex;
+  color: #fff;
+  font-size: 20px;
+  padding: 40px;
+  justify-content: space-between;
+}
+.beneficios i {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+@media (max-width: 500px) {
+  .beneficios {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin: 10px;
+  }
+  .conteiner-nosotros .portada-nosotros img {
+    height: 400px;
+    padding: 10px;
+  }
+}
+.content {
+  color: aliceblue;
+  background-color: rgb(56, 56, 56);
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+}
+.content .logo {
+  text-align: center;
+}
+.content .tarjeta-contacto {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 128, 0.3);
+  padding: 30px;
+  list-style: none;
+}
+.content .formulario {
+  background-color: rgb(56, 56, 56);
+}
+.content .formulario button,
+.content .formulario input,
+.content .formulario textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: rgb(63, 63, 63);
+  color: #fff;
+}
+.content .formulario button {
+  border-bottom: none;
+  background-color: navy;
+  border-radius: 10px;
+}
+.content .formulario button:hover {
+  background-color: #000099;
+  transform: scale(0.95);
+}
+
+.data {
+  background-color: rgb(66, 66, 66);
+  margin: 20px;
+  height: auto;
+  text-align: center;
+}
+
+@media (min-width: 700px) {
+  .content {
+    padding: 30px;
+  }
+  .tarjeta-contacto {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .data h2 {
+    padding: 20px;
+  }
+  .data h4 {
+    text-align: start;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .data li {
+    padding: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .content {
+    padding: 30px;
+  }
+  .data h2 {
+    padding: 20px;
+  }
+  .data h4 {
+    text-align: start;
+    padding: 10px;
+    font-size: 15px;
+  }
+  .data li {
+    padding: 20px;
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=estilos.css.map */
